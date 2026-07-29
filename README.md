@@ -29,6 +29,8 @@ silence its own watchdog.
 Questions about the lab in general: [open an issue here](https://github.com/Palo-Alto-AI-Research-Lab/.github/issues).
 Questions about a specific project: open an issue in that project.
 
+Prefer to talk to a human directly: WhatsApp +1 341 222 9178 · X [@Tony_Stef_](https://x.com/Tony_Stef_) · Telegram [@ClawRus](https://t.me/ClawRus) (RU) / [@ClawEng](https://t.me/ClawEng) (EN).
+
 ---
 
 ## По-русски
