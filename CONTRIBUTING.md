@@ -72,7 +72,8 @@ what breaks without it, and the cheaper alternative you considered.
    "Should work" is not a test.
 5. **Tell us if an AI wrote it.** We build with AI agents every day and think that's fine — but say
    so, and make sure you understand and have run what you're sending. Unreviewed generated code is
-   the one thing we will close on sight.
+   the one thing we will close on sight. We hold ourselves to the same standard and credit the
+   models per commit — see [`AI-CONTRIBUTORS.md`](AI-CONTRIBUTORS.md).
 
 ## Questions
 
@@ -150,7 +151,8 @@ the lab in general.
    теле PR. «Должно работать» тестом не считается.
 5. **Скажи, если писал ИИ.** Мы сами строим с ИИ-агентами каждый день и считаем это нормой — но
    скажи об этом и убедись, что понимаешь и прогнал то, что присылаешь. Непрочитанный
-   сгенерированный код — единственное, что мы закроем не глядя.
+   сгенерированный код — единственное, что мы закроем не глядя. С себя спрашиваем так же и
+   отмечаем модели в каждом коммите — см. [`AI-CONTRIBUTORS.md`](AI-CONTRIBUTORS.md).
 
 ## Вопросы
 

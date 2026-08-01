@@ -9,6 +9,7 @@ repository of the [Palo Alto AI Research Lab](https://github.com/Palo-Alto-AI-Re
 | [`CONTRIBUTING.md`](CONTRIBUTING.md) | all public repos | yes |
 | [`SECURITY.md`](SECURITY.md) | all public repos | yes |
 | [`SUPPORT.md`](SUPPORT.md) | all public repos | yes |
+| [`AI-CONTRIBUTORS.md`](AI-CONTRIBUTORS.md) | all public repos | no — one policy for the whole lab |
 
 ## Why one source instead of a copy per repo
 
