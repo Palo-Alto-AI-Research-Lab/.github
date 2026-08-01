@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: "Take an open task (the `accepted` queue)"
+    url: https://github.com/Palo-Alto-AI-Research-Lab/.github/blob/main/CONTRIBUTING.md
+    about: "Issues labelled `accepted` are free to take — comment \"claiming this\" and it is yours for 7 days. No CLA, your copyright stays yours."
+  - name: "Report a security problem privately"
+    url: https://github.com/Palo-Alto-AI-Research-Lab/.github/blob/main/SECURITY.md
+    about: "Found something that could hurt a user? Do not open a public issue — this page has the private route."
+  - name: "Just a question, or not sure it is a bug"
+    url: https://github.com/Palo-Alto-AI-Research-Lab/.github/blob/main/SUPPORT.md
+    about: "Ask anyway. An open issue with a question in it is welcome here; guessing wrong costs you nothing."
