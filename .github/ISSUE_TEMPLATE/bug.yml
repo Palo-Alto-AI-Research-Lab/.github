@@ -1,0 +1,91 @@
+name: "Bug — it does something wrong"
+description: "Something in this repo behaves differently than it says it does. Repro required."
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **We answer every issue within 48 hours**, including "no, and here is why".
+        Silence longer than that is our bug — ping the thread.
+
+        One ask before you start: give us something we can **run**. A reproduction beats a
+        description every time, and it is the difference between a fix today and a conversation
+        for a week.
+
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to reproduce
+      description: >
+        The exact path from a clean checkout to the wrong behaviour. Commands, file contents,
+        input data. If it needs a file, paste the smallest one that still breaks.
+      placeholder: |
+        1. git clone <this repo> && cd <repo>
+        2. <install / setup command>
+        3. <the command that misbehaves>
+      value: |
+        1.
+        2.
+        3.
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: What happened
+      description: The actual output. Paste it verbatim — full traceback, exit code, wrong value.
+      render: text
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected instead
+      description: >
+        And where you got that expectation — the README line, a docstring, a test name.
+        If the docs are what's wrong, say so; that is a valid answer.
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: >
+        OS, language runtime version, and the version/commit of this repo.
+        `git rev-parse --short HEAD` is enough for the last one.
+      placeholder: |
+        OS: macOS 15.3 / Ubuntu 24.04 / Windows 11
+        Runtime: python 3.12.4
+        This repo at: a1b2c3d (or release v0.2.0)
+      render: text
+    validations:
+      required: true
+
+  - type: textarea
+    id: workaround
+    attributes:
+      label: Anything you already tried
+      description: >
+        Optional, but it saves us walking the same dead end. A guess at the cause is welcome —
+        mark it as a guess.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: hygiene
+    attributes:
+      label: Before you submit
+      options:
+        - label: >
+            I searched the open and closed issues and this is not a duplicate.
+          required: true
+        - label: >
+            There are no secrets, credentials, personal data or third-party names in what I pasted.
+          required: true
+        - label: >
+            I would like to fix this myself. (Optional — say so and it is yours, no permission
+            needed. See CONTRIBUTING for the `accepted` queue.)
+          required: false
