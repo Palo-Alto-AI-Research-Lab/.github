@@ -1,0 +1,24 @@
+# FUNDING.yml — единственный источник кнопки "Sponsor" для ВСЕХ публичных репо
+# аккаунта Palo-Alto-AI-Research-Lab.
+#
+# Это default community health file: лежит в репо `.github` и действует на каждый
+# репозиторий аккаунта, у которого НЕТ своего FUNDING.yml (свой — переопределяет).
+# Docs: "Creating a default community health file" — defaults можно заводить
+# "in your organization or personal account", FUNDING.yml в списке поддерживаемых.
+#
+# СОСТОЯНИЕ НА 2026-08-01: ни одна рельса не запущена → все строки закомментированы,
+# кнопка не показывается нигде. Это намеренно, а не забытый TODO.
+#
+#   GitHub Sponsors — листинг НЕ опубликован (проверено: /sponsors/<login> отдаёт 302
+#                     на профиль). Осталось: Stripe Connect (телефон+SMS+IBAN),
+#                     2FA на аккаунте, кнопка Publish. Руки Антона. Комиссия 0%.
+#   Ko-fi           — аккаунт не создан.
+#   HCB (Hack Club Bank) — ОТКАЗ 15.07.2026 письмом: платформа сузилась до teen-led
+#                     организаций внутри Hack Club. Рельса мертва, ждать нечего.
+#
+# ЧТОБЫ ВКЛЮЧИТЬ: снять "#" с нужной строки. Кнопка появится сразу во всех репо.
+# ПРОВЕРКА (обязательна, иначе "включено" ≠ "работает"): открыть любой репо
+# незалогиненным браузером и увидеть "Sponsor" в шапке.
+
+# github: Palo-Alto-AI-Research-Lab   # ← точный login аккаунта; "PaloAltoAIResearchLab" не существует
+# ko_fi: paloaltoairesearchlab
