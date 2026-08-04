@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you reference the Palo Alto AI Research Lab community and AI-authorship policies, please cite them as below."
+title: "Palo Alto AI Research Lab: default community health files and AI-authorship policy"
+type: software
+authors:
+  - family-names: Dziatkovskii
+    given-names: Anton
+    orcid: "https://orcid.org/0000-0001-7408-3054"
+    affiliation: "Palo Alto AI Research Lab"
+repository-code: "https://github.com/Palo-Alto-AI-Research-Lab/.github"
+url: "https://github.com/Palo-Alto-AI-Research-Lab"
+license: MIT
+keywords:
+  - open source governance
+  - AI authorship
+  - contribution policy
+  - community health files
+abstract: >-
+  The organisation-wide community documents inherited by every public repository of
+  the lab — code of conduct, contributing, security and support policies — kept in
+  one place rather than copied per repository, plus a lab-wide AI-authorship policy
+  that credits a model on a commit only when its output changed that commit's
+  content. Licenses are deliberately excluded, because GitHub does not inherit them.
+  Presence of the required documents is enforced by a deterministic gate that runs
+  outside the repositories it checks.
